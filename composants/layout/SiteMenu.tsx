@@ -17,7 +17,7 @@ export default function SiteMenu({ slug }: SiteMenuType) {
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink href={`/websites/${slug}`} color="light">
+          <ButtonLink href={`/app/websites/${slug}`} color="light">
             Voir le site
           </ButtonLink>
         </li>

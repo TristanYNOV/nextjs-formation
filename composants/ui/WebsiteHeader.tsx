@@ -27,7 +27,7 @@ export default function WebsiteHeader({ website }: WebsiteHeaderType) {
             </a>
           </div>
         </header>
-        <Link href={`/websites/${website.slug}`}>
+        <Link href={`/app/websites/${website.slug}`}>
           <Image
             src={`/websites/${website.thumbnail}`}
             alt={`Image ${website.title}`}
