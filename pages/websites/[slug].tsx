@@ -1,4 +1,5 @@
 import { WebsiteType } from "@/types/website";
+import Image from "next/image";
 
 export async function getStaticPaths() {
   const websites = await fetch("http://localhost:3000/websites.json").then(
@@ -38,6 +39,10 @@ export default function WebsitePage({ website }: WebsitePageType) {
     website && (
       <div>
         <h1>{website.title}</h1>
+        <Image src={`/websites/${website.thumbnail}`} alt={'Thumbnail'} width={400} height={400} />
+        {website && website.images.map((imageURL, index) => (
+            <Image src={`/websites/${imageURL}`} alt={`thumbnail-${imageURL}`} key={index} width={400} height={400} />
+        ))}
       </div>
     )
   );
