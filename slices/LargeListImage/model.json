@@ -1,0 +1,18 @@
+{
+  "id": "large_list_image",
+  "type": "SharedSlice",
+  "name": "LargeListImage",
+  "description": "LargeListImage",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

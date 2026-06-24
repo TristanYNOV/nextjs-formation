@@ -1,0 +1,16 @@
+{
+  "id": "nav_link",
+  "type": "SharedSlice",
+  "name": "NavLink",
+  "description": "NavLink",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}
