@@ -1,3 +1,5 @@
+import PinsList from "./_components/PinsList";
+
 type PinsPageType = {};
 
 export const metadata = {
@@ -6,5 +8,9 @@ export const metadata = {
 };
 
 export default function PinsPage({}: PinsPageType) {
-  return <main>PinsPage</main>;
+  return (
+    <main>
+      <PinsList />
+    </main>
+  );
 }
